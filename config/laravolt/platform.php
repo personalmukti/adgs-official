@@ -3,7 +3,7 @@
 return [
     'middleware' => ['web', 'auth'],
     'features' => [
-        'database-monitor' => false,
+        'database-monitor' => true,
         'epicentrum' => true,
         'mailkeeper' => false,
         'lookup' => false,
